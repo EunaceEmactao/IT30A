@@ -133,3 +133,10 @@ JOIN books b ON
 
 WHERE br.borrow_return_date is NOT  NULL 
 ORDER BY br.borrow_date DESC;
+
+
+
+ALTER TABLE borror ADD COLUMN borrow_return_date TIMESTAMP NULL DEFAULT NULL; 
+
+--establish migration file from mariadb to postgre
+--migration: maka expand ug database, make backup database on another device
