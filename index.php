@@ -1,6 +1,6 @@
 <?php
 
-//Database Connection
+// Database Connection
 $host = 'localhost';
 $db = 'library_db';
 $user = 'root';
