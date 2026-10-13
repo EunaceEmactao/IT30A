@@ -136,7 +136,7 @@ ORDER BY br.borrow_date DESC;
 
 
 
-ALTER TABLE borror ADD COLUMN borrow_return_date TIMESTAMP NULL DEFAULT NULL; 
+ALTER TABLE borrow ADD COLUMN borrow_return_date TIMESTAMP NULL DEFAULT NULL; 
 
 --establish migration file from mariadb to postgre
 --migration: maka expand ug database, make backup database on another device
