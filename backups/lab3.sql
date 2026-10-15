@@ -105,7 +105,7 @@ SET borrow_return_date = CURRENT_TIMESTAMP
 WHERE borrow_id = 1 AND borrow_return_date IS NULL;
 
 
-
+--comment
 
 
 SELECT 
