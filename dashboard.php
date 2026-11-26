@@ -431,7 +431,11 @@ $recentBorrows = $recentStmt->fetchAll();
 </div>
 </div>
 
-</body>
+
+
+
+
+
 <script>
     (function() {
         // Materialize standard palette
@@ -496,7 +500,10 @@ $recentBorrows = $recentStmt->fetchAll();
                 }
             }
         });
-    })();
+
+
+
+
 
 
     // ---------- BAR: BORROWS LAST 7 DAYS ----------
@@ -576,5 +583,7 @@ new Chart(borrowCtx, {
         }
     }
 });
+})();
 </script>
+</body>
 </html>
